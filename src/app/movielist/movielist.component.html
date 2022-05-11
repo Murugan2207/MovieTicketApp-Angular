@@ -1,0 +1,35 @@
+<h1>All Movies</h1>
+<table class="table table-bordered" id="table">
+
+<thead>
+    <tr>
+        
+        <th>Movie ID</th>
+        <th>Movie Name</th>
+        <th>Ticket Price</th>
+        <th>Ratings</th>
+        <th>Language</th>
+        <th>Location</th>
+        <th>category</th>
+        <th>Delete</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let movie of movies;let i=index">
+      
+        <td>{{i+1}}</td>
+        <td>{{movie.movieName}}</td>
+        <td>{{movie.ticketPrice}}</td>
+        <td>{{movie.ratings}}</td>
+        <td>{{movie.language}}</td>
+        <td>{{movie.location}}</td>
+        <td>{{movie.category}}</td>
+      <td><button type="button" (click)="deleteMovie(movie.Id)"
+       class="btn btn-danger">Delete</button></td>
+    </tr>
+
+
+</tbody>
+
+
+</table>

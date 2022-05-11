@@ -1,0 +1,35 @@
+input[type="email"]:hover
+{
+   border-radius:25px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:lightblue;
+   font-size:20px;
+}
+input[type="password"]:hover
+{
+   border-radius:25px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:lightblue;
+   font-size:20px;
+}
+.box{
+    background:black;
+    color:red;
+    top:52%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:65px 30px;	
+    border-radius:15px;
+}
+h1{
+  text-align: center;
+  
+}
+  
+  

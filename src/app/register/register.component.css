@@ -1,0 +1,108 @@
+
+
+.box{
+   background:black;
+   color:red;
+   top:62%;
+   left:50%;
+   position:absolute;
+   transform:translate(-50%,-50%);
+   box-sizing:border-box;
+   padding:65px 30px;	
+   border-radius:15px;
+}
+h1{
+   text-align:center;
+   color:white;
+   font-family:"Times New Roman", Times, serif;
+   margin:0;
+   padding:0 0 20px;
+   font-size:40px;
+   padding:10px;
+   background:black;	
+}
+h2{
+   text-align:center;
+   color:yellow;
+   font-family:"Times New Roman", Times, serif;
+   margin:0;
+   padding:0 0 20px;
+   font-size:30px;
+   padding:10px;
+   background:black;
+   border-radius:10px;	
+   
+}
+
+input[type="text"]:hover
+{
+   border-radius:25px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:lightblue;
+   font-size:20px;
+}
+input[type="email"]:hover
+{
+   border-radius:25px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:lightblue;
+   font-size:20px;
+}
+input[type="password"]:hover
+{
+   border-radius:25px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:lightblue;
+   font-size:20px;
+}
+input[type="tel"]:hover
+{
+   border-radius:25px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:lightblue;
+   font-size:20px;
+}
+
+button[type="submit"]:hover
+{
+   border-radius:35px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:#2196f3;
+  
+   
+}
+button[type="button"]:hover
+{
+   border-radius:35px;
+   cursor:pointer;
+   border:none;
+   outline:none;
+   background:#2196f3;
+}
+button[type="Reset"]:hover
+{
+   border-radius:35px;
+   cursor:pointer;
+background:red;
+}
+a{
+   text-decoration:none;
+   color:red;
+   
+   
+}
+
+
+
+
+

@@ -1,0 +1,33 @@
+<form (ngSubmit)="addMovie()" ngNativeValidate>
+    <section class="box">
+        <div>
+            <input type="text" name="movieName" [(ngModel)]="movieName" placeholder="Enter the MovieName" required autofocus>
+        </div>
+        <br>
+        <div>
+            <input type="number" name="ticketPrice" [(ngModel)]="ticketPrice" placeholder="Enter movie TicketPrice " required>
+        </div>
+        <br>
+        <div>
+            <input type="number" name="ratings" [(ngModel)]="ratings" placeholder="Enter Movie Rating" required>
+        </div>
+        <br>
+        <div>
+            <input type="text" name="location" [(ngModel)]="location" placeholder="Enter the location" required>
+        </div>
+        <br>
+        <div>
+            <input type="text" name="language" [(ngModel)]="language" placeholder="Enter Movie Language" required>
+        </div>
+        <br>
+        <div>
+            <input type="text" name="category" [(ngModel)]="category" placeholder="Enter Movie category" required>
+        </div>
+        <br>
+
+        <button type="submit" class="btn btn-success" >Submit</button>
+        
+        <button type="Reset" class="btn btn-danger">Reset</button>
+
+    </section>
+</form>

@@ -1,0 +1,17 @@
+
+ <h1>Login Here</h1>
+ <section class=box>
+    
+<form (ngSubmit)="login()"ngNativeValidate>
+<div>
+<input type="email" name="email" [(ngModel)]="email" placeholder="Enter your Email" required >
+</div>
+<br>
+<div>
+<input type="password" name="password" [(ngModel)]="password" placeholder="Enter your Password" required >
+</div>
+<br>
+<div>
+    <button type="submit" class="btn btn-success">Login</button>
+    <button type="button" class="btn btn-danger">Reset</button>
+    </div>

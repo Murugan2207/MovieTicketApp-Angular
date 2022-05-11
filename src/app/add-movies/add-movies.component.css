@@ -1,0 +1,11 @@
+.box{
+    background:black;
+    color:red;
+    top:52%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:65px 30px;	
+    border-radius:15px;
+}

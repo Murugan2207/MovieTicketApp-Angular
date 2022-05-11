@@ -1,0 +1,27 @@
+<h1>User Details</h1>
+<table class="table table-bordered" id="table">
+
+<thead>
+    <tr>
+        
+        <th>s.no</th>
+        <th>Name</th>
+        <th>Email ID</th>
+        <th>Password</th>
+        <th>PhoneNo</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let user of users;let i=index">
+        <td>{{i+1}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.password}}</td>
+        <td>{{user.phoneNo}}</td>
+    </tr>
+
+
+</tbody>
+
+
+</table>
