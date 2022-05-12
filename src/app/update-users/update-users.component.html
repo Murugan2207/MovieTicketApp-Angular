@@ -1,1 +1,20 @@
-<p>update-users works!</p>
+<form (ngSubmit)="updateUser()" ngNativeValidate>
+<div>
+    <input type="text" name="name" [(ngModel)]="user.name" placeholder="Enter your Name" required autofocus>
+</div>
+<br>
+<div>
+    <input type="email" name="email" [(ngModel)]="user.email" placeholder="Enter your Email" required>
+</div>
+<br>
+<div>
+    <input type="password" name="password" [(ngModel)]="user.password" placeholder="Enter your Password" required>
+</div>
+<br>
+<div>
+    <input type="tel" name="phoneNo" [(ngModel)]="user.phoneNo" placeholder="Enter your MobileNumber" required>
+</div>
+<br>
+<button type="submit" class="btn btn-success" >Update</button>
+<form>
+

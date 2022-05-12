@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { MovielistComponent } from './movielist/movielist.component';
 import { RegisterComponent } from './register/register.component';
 import { RoleGuard } from './role.guard';
+import { UpdateUsersComponent } from './update-users/update-users.component';
 import { ViewUsersComponent } from './view-users/view-users.component';
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
     {path:'movielist',component:MovielistComponent},
     {path:'view-users',component:ViewUsersComponent,canActivate:[AuthGuard,RoleGuard]},
     {path:'add-movies',component:AddMoviesComponent},
+    {path:'update-users/:id',component:UpdateUsersComponent},
     {path:'',redirectTo:'home',pathMatch:'full'}
 ];
 
