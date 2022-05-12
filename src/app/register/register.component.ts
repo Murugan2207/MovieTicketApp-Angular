@@ -15,7 +15,7 @@ export class RegisterComponent implements OnInit {
   phoneNo!: string;
   ImagePath: string;
   constructor(private http: HttpClient, private toastrService: ToastrService) {
-    this.ImagePath = '/assets/movie.jpg'
+    this.ImagePath = '/assets/images/movie.jpg'
     
   }
 

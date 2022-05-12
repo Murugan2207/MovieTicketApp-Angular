@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddMoviesComponent } from './add-movies/add-movies.component';
 import { AuthGuard } from './auth.guard';
+import { DisplaymoviesComponent } from './displaymovies/displaymovies.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MovielistComponent } from './movielist/movielist.component';
@@ -19,6 +20,7 @@ const routes: Routes = [
     {path:'view-users',component:ViewUsersComponent,canActivate:[AuthGuard,RoleGuard]},
     {path:'add-movies',component:AddMoviesComponent},
     {path:'update-users/:id',component:UpdateUsersComponent},
+    {path:'displaymovies',component:DisplaymoviesComponent},
     {path:'',redirectTo:'home',pathMatch:'full'}
 ];
 

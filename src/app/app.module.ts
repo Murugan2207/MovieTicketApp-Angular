@@ -15,6 +15,8 @@ import {BrowserAnimationsModule}from'@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { UpdateUsersComponent } from './update-users/update-users.component';
 import { AddMoviesComponent } from './add-movies/add-movies.component';
+import { UpdateMovieComponent } from './update-movie/update-movie.component';
+import { DisplaymoviesComponent } from './displaymovies/displaymovies.component';
 
 
 @NgModule({
@@ -28,6 +30,8 @@ import { AddMoviesComponent } from './add-movies/add-movies.component';
     ViewUsersComponent,
     UpdateUsersComponent,
     AddMoviesComponent,
+    UpdateMovieComponent,
+    DisplaymoviesComponent,
    
   ],
   imports: [

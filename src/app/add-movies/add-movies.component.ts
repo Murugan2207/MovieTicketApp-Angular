@@ -14,6 +14,7 @@ export class AddMoviesComponent implements OnInit {
   language: any;
   location: any;
   category: any;
+  image!:any;
   
 
   constructor(private http:HttpClient,private toastr:ToastrService) { }
@@ -27,7 +28,8 @@ export class AddMoviesComponent implements OnInit {
       "ratings": this.ratings,
       "language": this.language,
       "location":this.location,
-      "category":this.category
+      "category":this.category,
+      "image":this.image,
 
     };
     const url = "http://localhost:8080/movies/save";
